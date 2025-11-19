@@ -8,9 +8,9 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
         <body>
-                <div>
-                
-                </div>
+                <button style="display: flex;" id="CıkmaLogoUst" onclick="SitedenCık()">
+                        <div id="CıkmaLogo"></div><div>Siteden Çık</div>
+                </button>
                 <div id="Search-box" role="searchbox" style="display: flex;">
                         <button id="Arama" aria-disabled="false" tabindex="2" onclick="googleSearch()"></button>
                         <i id="Bosluk" style="width: 15px; height: 50px;"></i>
@@ -57,6 +57,14 @@
                 });
                 // Bitti // Enter Tuşuna Basınca Arama 
 
+                // Siteden Çıkma
+                function SitedenCık() {
+                        window.close();
+                        setTimeout(() => {
+                                alert("Tarayıcı Otomatik Çıkmayı Desteklemiyor.");
+                        }, 250);
+                }
+                // Bitti // Siteden Çıkma
         </script>
 </html>
 
