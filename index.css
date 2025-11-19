@@ -20,6 +20,12 @@ body {
 
 
 /* İmleç Gelince Efekt */
+#CıkmaLogoUst:hover {
+    transition: 200ms;
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, 1);
+    color: white;     }
+
 #box-YouTube:hover {
     transform: scale(0.98);
     transition: 150ms;
@@ -213,6 +219,23 @@ body {
 
 
 /* Kutu Stilleri */
+#CıkmaLogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(Resimler/Çık.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0);     }
+#CıkmaLogoUst {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    height: 30px;
+    border-width: 0px;
+    outline-width: 0;
+    border-radius: 7.5px;
+    padding: 5px;
+    font-size: 20px;     }
+
 #box-YouTube {
     font-size: 120%;
     font-weight: 900;
