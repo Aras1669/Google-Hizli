@@ -82,7 +82,7 @@ body {
     z-index: 5;
     backdrop-filter: blur(5px);
     border-style: none;
-    outline-width: 0px;
+    outline-width: 2px;
     outline-color: rgba(0, 0, 0, 0.75);
     outline-style: inset;
     outline-style: solid;
@@ -556,3 +556,4 @@ body {
 
 
 */
+
