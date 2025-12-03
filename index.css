@@ -21,63 +21,71 @@ body {
 
 /* İmleç Gelince Efekt */
 #CıkmaLogoUst:hover {
-    transition: 200ms;
+    transition: 250ms;
     transform: scale(1);
     background-color: rgba(0, 0, 0, 1);
     color: white;     }
+#CıkmaLogo:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 300ms;
+}
 
 #box-YouTube:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 50px -2.5px rgb(255, 255, 0);     }
 #box-İnstagram:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-WhatsApp:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-Eba:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-Mehsatek:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-ChatGpt:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-Snapany:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-Gmail:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-FaceBook:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-Coddy:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-IP:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
 #box-GitHub:hover {
     transform: scale(0.98);
     transition: 150ms;
-    box-shadow: 0px 0px 40px -10px rgb(255, 255, 0);     }
+    box-shadow: 0px 0px 40px -2.5px rgb(255, 255, 0);     }
+.box:hover {
+    z-index: 5;
+    backdrop-filter: blur(5px);
+}
 
 #Search-box:hover {
-    transition: 250ms;
-    box-shadow: 0px 0px 5px 1px rgba(10, 165, 255, 0.75);
+    transition: 200ms;
+    box-shadow: 0px 0px 5px 2.5px rgba(10, 165, 255, 1);
     transform: scale(0.98);     }
 #Arama:hover {
     transition: 300ms;
@@ -219,6 +227,17 @@ body {
 
 
 /* Kutu Stilleri */
+#CıkmaLogoUst {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: 5%;
+    height: 30px;
+    border-width: 0px;
+    outline-width: 0;
+    border-radius: 7.5px;
+    padding: 5px;
+    font-size: 20px;     }
 #CıkmaLogo {
     width: 20px;
     height: 20px;
@@ -226,15 +245,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: rgba(255, 255, 255, 0);     }
-#CıkmaLogoUst {
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-left: auto;
-    height: 30px;
-    border-width: 0px;
-    outline-width: 0;
-    border-radius: 7.5px;
-    padding: 5px;
-    font-size: 20px;     }
+
 
 #box-YouTube {
     font-size: 120%;
@@ -247,13 +258,10 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/YouTube_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
-    background-position: right;
+    background-size: 33.4%;
+    background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-İnstagram {
     font-size: 120%;
@@ -266,12 +274,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/İnstagram_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-WhatsApp {
@@ -285,12 +290,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/WhatsApp_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33.5%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-Eba {
@@ -304,12 +306,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/Eba_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-Mehsatek {
@@ -323,12 +322,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/Mehsatek_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-ChatGpt {
@@ -342,12 +338,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/ChatGpt_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-Snapany {
@@ -361,12 +354,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/Snapany_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-Gmail {
@@ -380,12 +370,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/Gmail_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33.33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-FaceBook {
@@ -399,12 +386,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/FaceBook_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-Coddy {
@@ -418,12 +402,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/Coddy_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-IP {
@@ -437,12 +418,9 @@ body {
     padding-right: 3px;
     border-color: black;
     border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/IP_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33.25%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
 #box-GitHub {
@@ -454,16 +432,24 @@ body {
     margin-bottom: 5%;
     padding-left: 3px;
     padding-right: 3px;
-    border-color: black;
-    border-width: 2px;
-    background-color: white;
     color: black;
     border-radius: 10px;
-    background-image: url(Resimler/GitHub_Logo.png);
-    background-color: rgb(70, 70, 70);
-    background-size: 33.3%;
+    background-size: 33.4%;
     background-position: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);     }
+.box {
+    margin-left: 4px;
+    z-index: 2;
+    border-style: none;
+    outline-width: 0px;
+    outline-color: rgba(0, 0, 0, 0.75);
+    outline-style: inset;
+    outline-style: solid;
+    backdrop-filter: blur(2.5px);
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+}
 
 #Search-box {
     width: 300px;
@@ -471,7 +457,7 @@ body {
     background-color: rgb(100, 100, 100);
     border-radius: 35px;
     display: flex;
-    margin-left:  70px;     }
+    margin-left:  5%;     }
 #Arama {
     width: 40px;
     height: 40px;
